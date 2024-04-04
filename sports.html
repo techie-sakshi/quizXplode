@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuizXplode</title>
+    
+    <link rel = "stylesheet" href = "styles.css">
+    <link rel="stylesheet" href="sports.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="golden-logo-template-free-png.webp">
+            </div>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="abouts.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="search">
+                <input type="text" placeholder="Search here">
+
+                <button class="btn">Search</button>
+            </div>
+            
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+        <div class = "wrapper">
+            <div class = "quiz-container">
+                <div class = "quiz-head">
+                    <h2 class = "quiz-title">Play!!</h2>
+                    <div class = "quiz-score flex">
+                        <span id = "correct-score"></span>/<span id = "total-question"></span>
+                    </div>
+                </div>
+                <div class = "quiz-body">
+                    <h2 class = "quiz-question" id = "question"><!--What is the full form of HTTP? --></h2>
+                    <ul class = "quiz-options">
+                        <!-- <li>1. Hyper text transfer package</li>
+                        <li>2. Hyper text transfer protocol</li>
+                        <li>3. Hyphenation text test program</li>
+                        <li>4. None of the above</li> -->
+                    </ul>
+                    <div id = "result">
+                    </div>
+                </div>
+                <div class = "quiz-foot">
+                    <button type = "button" id = "check-answer">Check Answer</button>
+                    <button type = "button" id = "play-again">Play Again!</button>
+                </div>
+                <div class="back">
+                    <a href="topics.html" class="back-button"><span class="arrow"></span> Back to the topic</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </main>
+        <footer class="flex-all-centre">
+            <p>Copyright &copy; </p>
+        </footer>
+    
+
+
+
+    <script src = "sports.js"></script>
+</body>
+</html>

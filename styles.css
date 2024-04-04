@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@500&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcm00NTItZi0wMTQteC5qcGc.webp);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    /* background-position: center; */
+    max-width: 100%;
+    height: auto;
+    
+    
+
+}
+
+header {
+
+    backdrop-filter: blur(5px);
+    font-family: 'Arima', cursive;
+    font-weight: bold;
+    /* margin-left: auto; */
+    width: 100vw;
+}
+
+nav {
+    display: flex;
+    /* margin-left: auto; */
+    width: 100vw;
+    
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+
+}
+
+.logo img {
+    padding: 0 0;
+    height: 7vh;
+    width: auto;
+}
+
+nav ul {
+    height: 7vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0px 10px;
+    width: 100%;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    text-align: center;
+
+}
+
+nav ul li a:hover {
+
+    font-weight: bold;
+}
+
+.search {
+    display: flex;
+    /* float: right; */
+    align-items: center;
+    font-size: 15px;
+    margin-left: auto;
+}
+
+.search input {
+    min-width: 15vw;
+    /* Adjust width */
+    /* max-width: 200px;  */
+    border-radius: 6px;
+    margin: 0 16px 0 10px;
+    font-family: 'Arima', cursive;
+    padding: 0 12px;
+    font-size: 15px;
+}
+
+.search button {
+    font-family: 'Arima', cursive;
+    /* font-weight: bold; */
+    padding: 2px 5px;
+    border-radius: 6px;
+    background-color: black;
+    color: antiquewhite;
+    height: 5vh;
+    /* width: 7.5vw; */
+    font-size: 15px;
+    cursor: pointer;
+}
+
+
+
+.container {
+    backdrop-filter: blur(2px);
+    border: 2px brown solid;
+    border-radius: 10px;
+    min-height: 80vh;
+    height: auto;
+    max-width: 85vw;
+    min-width: 55vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* flex-grow: 1; */
+    margin: auto;
+    padding: 20px;
+    
+   
+
+}
+
+.container button {
+    font-family: 'Arima', cursive;
+    /* font-weight: bold; */
+
+    padding: 10px 12px;
+    margin: 10px 0;
+    border-radius: 6px;
+    background-color: rgb(181, 83, 83);
+    /* color: brown; */
+    height: auto;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.container a {
+    text-decoration: none;
+    color: wheat;
+}
+
+.container h1 {
+    margin-bottom: 20px;
+    color: brown;
+}
+
+.container p {
+    margin-bottom: 20px;
+    color: rgb(113, 0, 113);
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 700;
+}
+.container h2 {
+    margin-bottom: 20px;
+    color: rgb(63, 4, 4);
+}
+.container li{
+    margin-bottom: 20px;
+    color: rgb(113, 0, 113);
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 700;
+}
+
+/* Adjustments for smaller screens */
+@media screen and (max-width: 450px) {
+    .search input {
+        width: 50%; /* Adjusted width for smaller screens */
+        margin: 0 8px; /* Adjusted margin */
+    }
+
+    .container {
+        max-width: 90vw; /* Adjusted maximum width */
+        min-width: 80vw; /* Adjusted minimum width */
+        margin: 10px;
+    }
+
+    
+}
