@@ -21,7 +21,7 @@ This is a quiz website designed to test users' knowledge on various topics. It p
 
 ## Usage
 
-1. Navigate to  in your web browser.
+1. Navigate to https://techie-sakshi.github.io/quizXplode/index.html in your web browser.
 2. Browse available quizzes or search for specific topics.
 3. Select a quiz and start answering questions.
 4. After completing the quiz, view your score and compare it with others.
